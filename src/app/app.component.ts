@@ -7,7 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  feature = 'recipes';
 
+
+  ContenttoDisplay(chosenvalue: string) {
+
+this.feature = chosenvalue;
+
+  }
 
 }
 
